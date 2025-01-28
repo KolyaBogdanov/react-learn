@@ -9,7 +9,7 @@ import PricingPlans from './PricingPlans'
 import Questions from './Questions'
 import Advertising from './Advertising'
 import FreeTrial from './FreeTrial'
-import Footer from './Footer'
+
 
 export default function Content () {
     return (
@@ -24,7 +24,6 @@ export default function Content () {
             <Questions />
             <Advertising />
             <FreeTrial />
-            <Footer />
         </>
     )   
 }
